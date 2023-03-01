@@ -1,1 +1,28 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1000;
+    width: 100%;
+    background: #be3144;
+}
 
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding: 0 15px;
+}
+.nav li{
+    margin-left:20px;
+    font-size: 1.5rem;
+}
+
+@media (max-height: 100%)
+{
+    #welcome-section{
+        height: 100%;
+    }
+}
